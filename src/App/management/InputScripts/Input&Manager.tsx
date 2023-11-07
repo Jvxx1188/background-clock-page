@@ -1,0 +1,35 @@
+import React from "react";
+import Player from "./TagPlayer";
+import { createRoot } from "react-dom/client";
+//GERENCIADOR DO INPUT
+await setTimeout(() => {
+  const divplayer = document.getElementById("DivPlayer") as HTMLDivElement;
+  let rootelement = createRoot(divplayer);
+
+  function Input() {
+    const Input = document.querySelector("#InputBack") as HTMLInputElement;
+    console.log(Input);
+
+    Input.addEventListener("focus", () => {
+      console.log("in focus");
+
+      document.addEventListener("keyup", (key) => {
+        if (key.key == "Enter") {
+          RootRender(Input.value);
+        }
+      });
+    });
+  }
+
+  //CRIAR INPUT
+  function RootRender(URL: string) {
+    //ROOT RENDER RESET AND RECREATE
+    rootelement.unmount();
+    rootelement = createRoot(divplayer);
+
+    //ADD PLAYER IN ROOT ELEMENT
+    rootelement.render(<Player type="video" href={URL} />);
+  }
+
+  Input();
+}, 1000);
