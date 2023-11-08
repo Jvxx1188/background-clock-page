@@ -1,4 +1,3 @@
-import React from "react";
 import Player from "./TagPlayer";
 import { createRoot } from "react-dom/client";
 //GERENCIADOR DO INPUT

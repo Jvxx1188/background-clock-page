@@ -1,5 +1,3 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
 setTimeout(() => {
   const ClockContainer = document.querySelector("#clock") as HTMLDivElement;
   console.log("clock working");

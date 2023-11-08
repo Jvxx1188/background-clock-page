@@ -1,5 +1,3 @@
-import { Button } from "../components/ui/button";
-import React from "react";
 import "./management/ClockTime/DateTime";
 import {
   Select,
@@ -9,7 +7,6 @@ import {
   SelectTrigger,
 } from "../components/ui/select";
 import { Input } from "../components/ui/input";
-import { Label } from "../components/ui/label";
 import "./management/HideElementsKeys/HideElementsKeys";
 function UserInterface() {
   return (
