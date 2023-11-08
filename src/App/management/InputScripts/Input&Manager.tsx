@@ -1,7 +1,7 @@
 import Player from "./TagPlayer";
 import { createRoot } from "react-dom/client";
 //GERENCIADOR DO INPUT
-await setTimeout(() => {
+setTimeout(() => {
   const divplayer = document.getElementById("DivPlayer") as HTMLDivElement;
   let rootelement = createRoot(divplayer);
 
