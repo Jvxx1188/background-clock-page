@@ -1,0 +1,2 @@
+o clocktime é iniciado colocando o valor retornado do horario em uma api na data, embaixo
+é iniciado a função de aplicar o horario na div, após o fim dela chamamos a função inicial, repetindo todo o processo em loop

@@ -2,7 +2,6 @@ import Props from "@/lib/PropsInterface";
 export function YTVD(props: Props) {
   let extra = window.innerWidth / window.innerHeight;
   //vertical
-  console.log(extra);
   if (extra < 1.77) {
     return (
       <div className="aspect-video h-full">

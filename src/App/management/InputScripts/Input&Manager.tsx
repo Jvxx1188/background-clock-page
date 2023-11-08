@@ -7,12 +7,10 @@ await setTimeout(() => {
   let rootelement = createRoot(divplayer);
 
   function Input() {
-    const Input = document.querySelector("#InputBack") as HTMLInputElement;
-    console.log(Input);
+    const Input = document.querySelector("#InputUrl") as HTMLInputElement;
 
     Input.addEventListener("focus", () => {
-      console.log("in focus");
-
+      console.log();
       document.addEventListener("keyup", (key) => {
         if (key.key == "Enter") {
           RootRender(Input.value);

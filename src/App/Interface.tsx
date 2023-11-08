@@ -1,6 +1,6 @@
 import { Button } from "../components/ui/button";
 import React from "react";
-import "./management/ClockTime/DateTime"
+import "./management/ClockTime/DateTime";
 import {
   Select,
   SelectContent,
@@ -10,22 +10,20 @@ import {
 } from "../components/ui/select";
 import { Input } from "../components/ui/input";
 import { Label } from "../components/ui/label";
-
-
-
+import "./management/HideElementsKeys/HideElementsKeys";
 function UserInterface() {
   return (
     <div
       id="Content"
-      className="relative overflow-hidden text-white w-full h-full"
+      className="relative shadow overflow-hidden text-white w-full h-full"
     >
       <div className="text-7xl p-20 justify-between items-end flex w-full h-full">
-        <div className="text-slate-950 font-bold flex items-center gap-4">
+        <div className="text-slate-950 font-bold flex items-center gap-4 InterfaceInputs">
           <Input
             defaultValue={"jfKfPfyJRdk"}
             type="video"
             placeholder="url or video id"
-            id="InputBack"
+            id="InputUrl"
           />
 
           <Select>
@@ -40,7 +38,9 @@ function UserInterface() {
           </Select>
         </div>
 
-        <div id="clock"></div>
+        <div id="clock" className="font-sans font-semibold">
+          00:00
+        </div>
       </div>
     </div>
   );
