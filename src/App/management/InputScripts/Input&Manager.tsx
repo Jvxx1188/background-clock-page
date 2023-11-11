@@ -1,13 +1,11 @@
 import Player from "./TagPlayer";
 import { createRoot } from "react-dom/client";
-import { useState } from "react";
 //GERENCIADOR DO INPUT
 import { Type } from "./../../Interface";
 
 setTimeout(() => {
   const divplayer = document.getElementById("DivPlayer") as HTMLDivElement;
   let rootelement = createRoot(divplayer);
-  let select = document.querySelector;
 
   function Input() {
     const Input = document.querySelector("#InputUrl") as HTMLInputElement;
