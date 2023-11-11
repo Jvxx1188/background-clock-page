@@ -1,11 +1,11 @@
 nesta parte esta todos os scripts com relação a renderização do conteudo de fundo
 
-no Input&Manager pegamos o input que esta na pagina e esperamos o aperto da tela enter, caso ele esteja em foco,se 
+no Input&Manager pegamos o input que esta na pagina e esperamos o aperto da tela enter, caso ele esteja em foco,se
 estiver tudo nos planos tentaremos executar ele
 
-o TagPlayer é a tag do html que é retornada para o DOM na classe DivPlayer, nela é retornada certo tipo de função na pagina dependendo do tipo especificado 
+o TagPlayer é a tag do html que é retornada para o DOM na classe DivPlayer, nela é retornada certo tipo de função na pagina dependendo do tipo especificado
 
 os BGTemplates são os tipos de planos de fundo.
 
-
-proximo passo é criar um select, eu ja crio um select bem intuitivo para mim poder aumentar caso eu tenha outras formas mais pra frente.
+/////////////////////////
+O Valor do type é criado no script Interface e o InputManager Pega esse valor e o adiciona no tipo do video
