@@ -1,9 +1,9 @@
 # a simple responsive video player and wallpapers page with a clock
 
 
-<h1 target="_blank" href="https://focus-snowy.vercel.app">Visit Site Alpha</h1>
+<a target="_blank" href="https://focus-snowy.vercel.app"><h1>Visit Site Alpha</h1></a>
 
-<a> <a target="_blank" href="https://youtu.be/Ffw3zPol48o">video trailer</a> </a>
+<h2> <a target="_blank" href="https://youtu.be/Ffw3zPol48o"> video trailer</a> </h2>
 
 
 
