@@ -3,7 +3,7 @@
 
 <h1 target="_blank" href="https://focus-snowy.vercel.app">Visit Site Alpha</h1>
 
-<h2> <a target="_blank" href="https://youtu.be/Ffw3zPol48o">video trailer</a> </h2>
+<a> <a target="_blank" href="https://youtu.be/Ffw3zPol48o"><h2>video trailer</h2> </a> </a>
 
 
 
