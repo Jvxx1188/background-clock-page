@@ -1,7 +1,7 @@
 # a simple responsive video player and wallpapers page with a clock
 
 
-<a target="_blank" href="https://focus-snowy.vercel.app">Visit Site </a>
+<h1><a target="_blank" href="https://focus-snowy.vercel.app">Visit Site </a></h1>
 
 
 
